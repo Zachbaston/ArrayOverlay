@@ -1,4 +1,8 @@
-# ArrayOverlay
+<p align="center">
+  <img src="docs/logo.png" alt="ArrayOverlay icon" width="160" height="160">
+</p>
+
+<h1 align="center">ArrayOverlay</h1>
 
 A lightweight macOS utility that floats a **transparent, always-on-top image overlay** over everything else on your screen. Load an image, position/scale/rotate it, dial in the opacity, and toggle a **click-through** mode so you can keep working in the apps underneath while the image stays pinned on top.
 
