@@ -1,0 +1,44 @@
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# ---- Xcode: user-specific state (NEVER commit — leaks username + absolute paths) ----
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xcscmblueprint
+
+# ---- Xcode: build output ----
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ---- Xcode: misc ----
+*.xccheckout
+*.xcscmblueprint
+*.playground/playground.xcworkspace
+
+# ---- Swift Package Manager ----
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+Packages/
+Package.resolved
+
+# ---- CocoaPods / Carthage (not used here, but safe to ignore) ----
+Pods/
+Carthage/Build/
+
+# ---- Signing secrets — must never be committed ----
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+*.certSigningRequest
+*.entitlements.local
